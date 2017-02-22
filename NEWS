@@ -1,0 +1,19 @@
+ocp 0.2
+
+* added --sysdba and --sysoper options to connect to Oracle accordingly
+* added --md5 and --sha1 options to calculate file hashes
+
+----------------------------------------------------------------------------
+
+ocp 0.1 
+
+* first alpha version of the tool
+* added -i (--interactive) and -f (--force) options
+* added --keep-partial and -c (--continue) options
+* added -b (--background) option
+* added --install and --deinstall options
+* if destination filename omitted, the source filename is used
+* when "-" is specified as a file name, it means STDIN/STDOUT
+* added -k (--keep) option
+
+----------------------------------------------------------------------------
